@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>910</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1400</width>
+    <height>910</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1400</width>
+    <height>910</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>40</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Striker</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>360</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Midfield Wing (L)</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>520</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Wingback (L)</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>680</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Fullback (L)</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>680</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Fullback (R)</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>520</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Wingback (R)</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>360</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Midfield Wing (R)</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>200</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Advanced Wing (R)</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>200</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Advanced Wing (L)</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>360</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Central Midfield</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>680</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Centreback</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>200</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Attacking Midfield</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>520</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Defensive Midfield</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="recommendationButton">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>550</y>
+      <width>231</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>HoloLens MDL2 Assets</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Make Recommendation!</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>400</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>HoloLens MDL2 Assets</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Player Name</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>440</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>HoloLens MDL2 Assets</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="currentText">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string extracomment="Position">Position</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Centreback (CB)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fullback Left (FBL)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fullback Right (FBR)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wingback Left (WBL)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wingback Right (WBR)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Defensive Midfield (DM)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Central Midfield (CM)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Attacking Midfield (AMC)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Midfield Wing Left (MWL)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Midfield Wing Right (MWR)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Advanced Wing Left (AWL)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Advanced Wing Right (AWR)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Striker (ST)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="addplayerButton">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>480</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>HoloLens MDL2 Assets</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Add player!</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="stList">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>70</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>10</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="showGrid">
+     <bool>false</bool>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+     <bool>true</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignHCenter|AlignTop</set>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="dmList">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>550</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="cbList">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>710</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="fbrList">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>710</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="wbrList">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>550</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="mwrList">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>390</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="awrList">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>230</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="amcList">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>230</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>HoloLens MDL2 Assets</family>
+     </font>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="fblList">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>710</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="wblList">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>550</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="mwlList">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>390</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="awlList">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>230</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="cmList">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>390</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>165</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Player</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Haettenschweiler</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>230</y>
+      <width>371</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="acceptRichText">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Hello Gaffer! Welcome to my office. I've developed this new tool for you, it helps me recommend formations that we can get the lads to play in, based on on our personnel at each position! Sounds pretty cool right? Feel free to use it, just add the squad depth to this interface on the left, and when you're ready, hit the big &quot;Make Recommendation!&quot; button... </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>626</x>
+      <y>40</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Recommended formation:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="formationEdit">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>90</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>HoloLens MDL2 Assets</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>The formation will appear, after pressing the button!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>170</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Haettenschweiler</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Analyst Report:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearEverything">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>780</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>HoloLens MDL2 Assets</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Clear Everything</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1400</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
